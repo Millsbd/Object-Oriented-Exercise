@@ -11,7 +11,8 @@ class Vehicle {
         return `The vehicle is a ${this.a} ${this.b} from ${this.c}.`
     }
 }
-// Create a class which accepts 3 arugments, make, model, year. 
+// Create a class which accepts 3 arugments, make, model, year.
+// **WHY DO WE NEED THE THIS.A INSTEAD OF JUST A HERE?**
 
 class Car extends Vehicle {
     constructor(a,b,c){
